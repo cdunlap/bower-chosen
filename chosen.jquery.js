@@ -624,7 +624,6 @@
       var _this = this;
       this.container.bind('touchstart.chosen', function(evt) {
         _this.container_mousedown(evt);
-        return evt.preventDefault();
       });
       this.container.bind('touchend.chosen', function(evt) {
         _this.container_mouseup(evt);
